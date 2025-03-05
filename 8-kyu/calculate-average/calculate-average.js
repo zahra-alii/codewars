@@ -1,22 +1,11 @@
-function findAverage(array) {
+// SOLUTION 2
 ​
-  if(array.length === 0){
-    return 0;
-  }
-  let total = 0;
-  for(i=0; i<array.length; i++){
-    total += array[i]/array.length;
-  }
-  return total;
+function findAverage(array) {
+  return array.length === 0 ? 0 : array.reduce((acc, c) => acc + c, 0)/array.length;
 }
 ​
-// SOLUTION EXPLAINED:
-// create condition for empty arrays
-// set total variable to 0
-// create a condition that goes through the parameter length
-// add the total (0) to every element in the array
-// divide by total number of elements in the array (array.length)
-// return total
-​
-​
-​
+// SOLUTION 2 EXPLAINED:
+// use ternary operator to compare the 2 conditions 
+// use .reduce method - which takes in a callback function that takes in 2 arguments (acc, c)
+// .reduce method also loops through every element in the array and returns a single value
+// set the initial val to 0, then divide by total # of elements (array.length)
