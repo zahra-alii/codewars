@@ -1,2 +1,2 @@
-// add the value "codewars" to the already defined websites array
+// SOLUTION:
 websites.push("codewars");
