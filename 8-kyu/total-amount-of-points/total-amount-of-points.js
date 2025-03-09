@@ -10,3 +10,8 @@ total += 3;
 });
 return total;
 }
+
+// SOLUTION 2: USING .REDUCE METHOD
+const points = games => games.reduce((total, c) => {
+    return total += c[0] > c[2] ? 3 : c[0] === c[2] ? 1 : 0;
+}, 0);
