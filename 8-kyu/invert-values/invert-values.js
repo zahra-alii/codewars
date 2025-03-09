@@ -6,3 +6,8 @@ function invert(array) {
   }
   return newArr;
 }
+
+// SOLUTION 2: .MAP METHOD
+ function invert(array){
+    return array.map(num => -num);
+  }
