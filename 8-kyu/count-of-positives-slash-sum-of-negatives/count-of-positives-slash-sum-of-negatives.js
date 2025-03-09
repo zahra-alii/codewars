@@ -15,7 +15,7 @@ function countPositivesSumNegatives(input){
     // increment the elements
       positiveNums++;
       }else{
-    // else, add every negative element
+    // add every negative element
     negativeSum += input[i];
   }
 }
