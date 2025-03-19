@@ -1,3 +1,4 @@
+// SOLUTION 1:
 function toCsvText(array) {
   let result = '';
   for (let i=0; i < array.length; i++){
@@ -8,3 +9,6 @@ function toCsvText(array) {
   }
   return result;
 }
+
+// SOLUTION 2: (.join() + arrow func)
+const toCsvText = array => array.join('\n');
