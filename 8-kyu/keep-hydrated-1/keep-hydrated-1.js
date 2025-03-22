@@ -11,3 +11,8 @@ function litres(time) {
   }
   return Number(result);
 }
+
+// SOLUTION 2: 
+function litres(time) {
+  return Math.floor(time * 0.5); // rounds down to nearest whole #
+}
