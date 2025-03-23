@@ -1,3 +1,13 @@
+// SOLUTION 1: 
+function sumMix(arr){
+    let total = 0;
+    for (let i = 0; i<arr.length; i++){
+        total += Number(arr[i]); // return sum as a #
+    }
+    return total; 
+}
+
+// SOLUTION 2: 
 function sumMix(x){
   return x.reduce((acc, c) => acc + Number(c), 0);
 }
