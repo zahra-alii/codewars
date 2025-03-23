@@ -7,7 +7,7 @@ function countBy(x, n) {
 }
 ​
 // SOLUTION EXPLAINED:
-// create a new arrat (z)
+// create a new array (z)
 // create a for loop that passes through parameter n
-// push every element that is a multiple (x)* the element into the new arr
+// push every element that is a multiple of (x) * the element into the new arr
 // return the new array
