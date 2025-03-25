@@ -1,3 +1,4 @@
+// SOLUTION 1:
 function noOdds( values ){
   let arr = [];
   for(let i=0; i<=values.length; i++){
@@ -6,4 +7,9 @@ function noOdds( values ){
     }
   }
   return arr;
+}
+
+// SOLUTION 2 - use .filter():
+function noOdds( values ){
+  return values.filter((x) => x % 2 === 0);
 }
