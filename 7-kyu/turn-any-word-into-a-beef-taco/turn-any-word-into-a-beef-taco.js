@@ -1,3 +1,4 @@
+// SOLUTION 1: 
 function tacofy(word) {
   const keys = {
     a: 'beef',
@@ -19,4 +20,10 @@ function tacofy(word) {
   }
   result.push('shell')
   return result;
+}
+
+// SOLUTION 2:
+function tacofy(word) {
+  let map = {t:'tomato',l:'lettuce',c: 'cheese',g: 'guacamole',s:'salsa',a:'beef',e:'beef',i:'beef',o:'beef',u:'beef'};
+  return ['shell',...[...word].map(x => map[x.toLowerCase()]).filter(x=>x),'shell'];
 }
