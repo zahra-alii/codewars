@@ -1,3 +1,5 @@
+PROBLEM: 
+
 Create a function that will trim a string (the first argument given) if it is longer than the requested maximum string length (the second argument given). The result should also end with "..."
 
 These dots at the end also add to the string length.
