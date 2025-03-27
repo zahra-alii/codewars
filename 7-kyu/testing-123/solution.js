@@ -10,3 +10,6 @@ let number = function(array){
 }
 return newArr;
 }
+
+// SOLUTION 2: (.map() method )
+const number= array => array.map((elem, index) => index + 1 + ': ' + elem);
