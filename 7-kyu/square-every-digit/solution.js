@@ -9,3 +9,6 @@ function squareDigits(num){
 }
 
 // SOLUTION 2: 
+const squareDigits = num => +String(num).split('').map(elem => elem**2).join('');
+// uranary op (+) does the same thing as Number()
+// use .split() + .join() to return integer
