@@ -1,3 +1,4 @@
+// SOLUTION:
 function countBy(x, n) {
   let z = [];
   for(let i=1; i<=n; i++){
@@ -8,6 +9,6 @@ function countBy(x, n) {
 ​
 // SOLUTION EXPLAINED:
 // create a new array (z)
-// create a for loop that passes through parameter n
-// push every element that is a multiple of (x) * the element into the new arr
+// create a for loop that passes through each number (n)
+// push every element that is a multiple of x * the element into the new arr
 // return the new array
