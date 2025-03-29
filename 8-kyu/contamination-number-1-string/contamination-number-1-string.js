@@ -1,4 +1,4 @@
-// SOLUTION:
+// SOLUTION 1:
 function contamination(text, char){
   if(text === "" || char === ""){ // default
     return "";
@@ -8,4 +8,9 @@ function contamination(text, char){
       result += char;
     }
     return result;
+}
+
+// SOLUTION 2:
+function contamination(text, char){
+  return char.repeat(text.length);
 }
