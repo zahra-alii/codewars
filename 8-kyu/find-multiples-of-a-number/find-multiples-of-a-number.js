@@ -8,9 +8,9 @@ function findMultiples(int, limit){
 ​
 /* SOLUTION EXPLAINED:
 1 - create new empty array
-2 -set for loop that passes through param start & end
-3 - push every number that matches the condition into new array
-4 - return new array*/
+2 - set for loop that passes through start & end parameters 
+3 - push every elem that matches the condition into new array
+4 - return new array */
 ​
 ​
 ​
