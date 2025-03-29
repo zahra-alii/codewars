@@ -10,9 +10,9 @@ function positiveSum(arr) {
 }
 ​
 /* SOLUTION EXPLAINED:
-- set total variable = to 0
+- decl total variable
 - create for loop
--set condition for all positive numbers
+- set condition for all positive numbers
 - add each element to 0, return total. */
 ​
 // Solution 2: .reduce() + .filter() methods
