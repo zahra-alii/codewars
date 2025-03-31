@@ -10,3 +10,11 @@ function doubleChar(str) {
 - then, join the chars back together to get the output 
 */
 ​
+// Alternative with for loop:
+function doubleChar(str) {
+  let newStr = '';
+  for (let i = 0; i<str.length; i++){
+    newStr += str[i] + str[i];
+  }
+  return newStr;
+}
