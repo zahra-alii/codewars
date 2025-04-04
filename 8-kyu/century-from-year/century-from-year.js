@@ -10,3 +10,6 @@ function century(year) {
   return lastTwoDigits + 1;
     }
 }
+
+// Alternative:
+const century = year => Math.ceil(year/100)
