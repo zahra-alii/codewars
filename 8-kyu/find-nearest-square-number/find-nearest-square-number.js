@@ -14,3 +14,8 @@ function nearestSq(n){
     }
     return squared;
 }
+
+// Alternative:
+function nearestSq(n){
+    return Math.round(n**0.5)**2
+}
