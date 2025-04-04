@@ -8,3 +8,9 @@ function bonusTime(salary, bonus) {
   }
   return `£${total}`;
 }
+
+
+// ALTERNATIVE:
+function bonusTime(salary, bonus) {
+  return bonus ? `£${10 * salary}` : `£${salary}`;
+}
