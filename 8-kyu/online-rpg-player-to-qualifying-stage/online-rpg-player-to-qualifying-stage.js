@@ -6,3 +6,5 @@ function playerRankUp (points) {
     return false;
   }
 }
+
+// Alternative: use ternary op
