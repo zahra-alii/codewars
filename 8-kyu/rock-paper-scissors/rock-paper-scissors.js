@@ -8,3 +8,18 @@ const rps = (p1, p2) => {
     return 'Draw!';
   }
 };
+
+// Alternative w object:
+
+const rps = (p1, p2) => {
+  if (p1 === p2) return "Draw!";
+  // rules - all winning conditions
+  var rules = {rock: "scissors", paper: "rock", scissors: "paper"};
+  // if p1(user) - accessing the value (p1) in the obj [rules]
+  if (p2 === rules[p1]) { // call obj[key]
+    return "Player 1 won!";
+  }
+  else {
+    return "Player 2 won!";
+  }
+}; 
