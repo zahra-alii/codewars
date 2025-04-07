@@ -1,14 +1,5 @@
-// SOLUTION 1:
+// SOLUTION:
 function toCsvText(array) {
-  let result = '';
-  for (let i=0; i < array.length; i++){
-    result += array[i];
-    if (i != array.length - 1){
-      result += '\n';
-    }
-  }
-  return result;
+  const withCommas = array.map(n => n.join(','));
+  return withCommas.join('\n');
 }
-
-// SOLUTION 2: (.join() + arrow func)
-const toCsvText = array => array.join('\n');
