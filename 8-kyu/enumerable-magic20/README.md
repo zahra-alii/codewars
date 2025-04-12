@@ -1,4 +1,4 @@
-PROBLEM: Create a method each_cons that accepts a list and a number n, and returns cascading subsets of the list of size n, like so:
+<h2>KATA:</h2> Create a method each_cons that accepts a list and a number n, and returns cascading subsets of the list of size n, like so:
 
 each_cons([1,2,3,4], 2) #=> [[1,2], [2,3], [3,4]]
 
