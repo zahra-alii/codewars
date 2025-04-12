@@ -6,3 +6,8 @@ function xor(a, b) {
     return true;
   }
 }
+
+// Alternative:
+function xor(a, b) {
+  return a !== b;
+}
